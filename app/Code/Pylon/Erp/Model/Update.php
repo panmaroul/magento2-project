@@ -83,19 +83,7 @@ class Update implements UpdateInterface {
     /*
      * Function for adding categories to store
      * 
-     * git commit
-     *      * git commit
-     * git commit
-     * git commit
-     * git commit
-     * git commit
-     * git commit
-     * git commit
-     * git commit
-     * git commit
-     * git commit
-     * git commit
-     * git commit
+    
 
      */
     
@@ -172,14 +160,6 @@ class Update implements UpdateInterface {
         $this->getCategoryCollection();
     }
 
-    ///test
-        ///test
-    ///test
-    ///test
-    ///test
-    ///test
-
-    
     
     /*
     
@@ -191,25 +171,7 @@ class Update implements UpdateInterface {
         $appState = $objectManager->get('\Magento\Framework\App\State');
         $appState->setAreaCode('frontend');
         return $objectManager;
-     *      * git commit
-     * git commit
-     * git commit
-     * git commit
-     * git commit
-     * git commit
-     * git commit
-     * git commit
-     * git commit
-     * git commit     * git commit
-     * git commit
-     * git commit
-     * git commit
-     * git commit
-     * git commit
-     * git commit
-     * git commit
-     * git commit
-     * git commit
+     
     }
      * 
      */
