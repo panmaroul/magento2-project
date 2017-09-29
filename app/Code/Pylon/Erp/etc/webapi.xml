@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
+    <route url="/V1/update/updateCategories/" method="POST">
+        <service class="Pylon\Erp\Api\UpdateInterface" method="updateCategories" />
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+    <route url="/V1/update/deleteAllCategories/" method="POST">
+        <service class="Pylon\Erp\Api\UpdateInterface" method="deleteAllCategories" />
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+    <route url="/V1/update/updateProducts/" method="POST">
+        <service class="Pylon\Erp\Api\UpdateInterface" method="updateProducts" />
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+    <route url="/V1/update/updateOrders/" method="POST">
+        <service class="Pylon\Erp\Api\UpdateInterface" method="updateOrders" />
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+    
+    
+</routes>
